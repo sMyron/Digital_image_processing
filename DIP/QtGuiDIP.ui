@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtGuiDIPClass</class>
+ <widget class="QMainWindow" name="QtGuiDIPClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>895</width>
+    <height>687</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtGuiDIP</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>10</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Original</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>10</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Final</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ReadFile">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>60</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ReadFile</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Flip">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>170</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Filp</string>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>50</y>
+      <width>222</width>
+      <height>252</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>220</width>
+       <height>250</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea_2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>50</y>
+      <width>222</width>
+      <height>252</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>220</width>
+       <height>250</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea_3">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>50</y>
+      <width>222</width>
+      <height>252</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>220</width>
+       <height>250</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>10</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Last Step</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ColorHist">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>580</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Color Hist</string>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea_4">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>370</y>
+      <width>302</width>
+      <height>202</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>300</width>
+       <height>200</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea_5">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>320</y>
+      <width>222</width>
+      <height>252</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>220</width>
+       <height>250</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="FFT">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>580</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>FFT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="HSI">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>580</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>HSI</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="GammaIn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Gamma">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>250</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Gamma</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Gaussian">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>330</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Gaussian</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Mean">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>370</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Mean</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sobel">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>490</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Sobel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Prewitt">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>530</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Prewitt</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Laplacian">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>450</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Laplacian</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Save">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>100</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Scale">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>210</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Scale</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ScaleIn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ToGray">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>330</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ToGray</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OTSU">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>370</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>OTSU</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Dilate">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>410</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Dilate</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Erode">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>450</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Erode</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OpenOperate">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>490</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>OpenOperate</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CloseOperate">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>530</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tempus Sans ITC</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>CloseOperate</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="QtGuiDIP.qrc"/>
+ </resources>
+ <connections/>
+</ui>
